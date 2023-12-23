@@ -8,7 +8,7 @@ import App from "../src/App";
 const app = express();
 
 
-app.get("/*", (req, res) => {
+app.get("*", (req, res) => {
   // const entryPoint = ["/main.js"];
 
   const { pipe, abort: _abort } = ReactDOMServer.renderToPipeableStream(
