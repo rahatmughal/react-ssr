@@ -1,1 +1,1 @@
-console.log("Hello Buddy!")
+console.log("Hello SSR!")
